@@ -115,6 +115,10 @@
         Process.Start("https://moisescardona.me")
     End Sub
 
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        Process.Start("https://gridcoinapp.xyz")
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         NotifyIcon1.Visible = True
         NotifyIcon1.Icon = My.Resources.favicon
@@ -135,10 +139,5 @@
         ShowInTaskbar = True
         Me.WindowState = FormWindowState.Normal
     End Sub
-
-    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
-        Process.Start("https://gridcoinapp.xyz")
-    End Sub
-
 
 End Class
