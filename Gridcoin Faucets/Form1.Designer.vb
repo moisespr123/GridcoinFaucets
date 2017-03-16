@@ -139,7 +139,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(15, 344)
+        Me.TextBox1.Location = New System.Drawing.Point(16, 293)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -201,7 +201,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(489, 414)
+        Me.ClientSize = New System.Drawing.Size(489, 331)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.CheckBox1)
